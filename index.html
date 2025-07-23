@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,64 +7,62 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: linear-gradient(to bottom, #2b0000, #000);
-      color: #ffd700;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #8b0000; /* أحمر غامق */
+      color: white;
       text-align: center;
     }
 
     header {
-      background: rgba(255, 0, 0, 0.7);
-      padding: 2rem 1rem;
+      background-color: #8b0000;
+      padding: 2rem;
     }
 
     h1 {
       font-size: 3rem;
+      color: gold;
       margin: 0;
-      text-shadow: 2px 2px 5px black;
     }
 
     p {
-      font-size: 1.2rem;
-      margin-top: 1rem;
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      color: #ffd700;
     }
 
-    .join-button {
-      margin-top: 2rem;
+    .button {
+      margin-top: 1.5rem;
+      background-color: gold;
+      color: black;
       padding: 1rem 2rem;
-      background: #ffd700;
+      font-size: 1rem;
       border: none;
-      border-radius: 10px;
-      color: #000;
-      font-weight: bold;
-      font-size: 1.2rem;
+      border-radius: 8px;
       cursor: pointer;
-      transition: transform 0.2s ease;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
     }
 
-    .join-button:hover {
-      transform: scale(1.1);
+    .button:hover {
+      background-color: #e0c200;
     }
 
-    .background-image {
-      background: url('https://i.imgur.com/f3V1s4c.jpg') no-repeat center center;
-      background-size: cover;
-      height: 70vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    main {
+      padding: 2rem;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Justice Foundation</h1>
-    <p>نحو ثورة عادلة تقلب موازين الظلم!</p>
-    <button class="join-button" onclick="window.open('https://discord.gg/YOUR_INVITE', '_blank')">
-      انضم إلينا على Discord
-    </button>
+    <p>نحو ثورة عدالة تقلب موازين الظلم</p>
+    <a href="https://discord.gg/your-invite-link" class="button">انضم إلينا على Discord</a>
   </header>
 
-  <div class="background-image"></div>
+  <main>
+    <p>مرحبًا بك في الموقع الرسمي لمنظمة العدل. نحن نسعى لإحقاق الحق ومواجهة الظلم بوسائل سلمية ومبادئ واضحة.</p>
+  </main>
+
 </body>
-  </html>
+</html> 
